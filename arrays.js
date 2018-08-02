@@ -42,6 +42,7 @@ return array;
       }
       function removeElementFromEndOfArray(array){
         myArray = array.slice(0, array.length - 1);
+        console.log(myArray);
         return myArray;
       }
     
